@@ -1,5 +1,9 @@
 import Image from 'next/image'
+// data fetching
 
+// 1 server side rendering (SSR)
+// 2 static site generation (SSG)
+// 3 incremental static generation (ISR)
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
